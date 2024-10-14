@@ -3,7 +3,7 @@
 import os
 from PyPDF2 import PdfReader
 
-# Function to read PDF file and extract text
+# Function to read PDF file and extract text .I have not set the file location as it may vary
 def read_pdf(file_path):
     try:
         reader = PdfReader(file_path)
